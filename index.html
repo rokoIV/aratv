@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Arat Portafolio</title>
+</head>
+
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>_.A&V._</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy Arat Velasquez, Desarrollador Web</h2>
+                <p class="descripcion"> Portafolio hecho por Arat Nicolas Velasquez para Ing. Multimedia </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Arat Velasquez</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>¡Hola! Soy Arat y me encanta tener la oportunidad de presentarme. Soy un estudiante de ing. multimedia en la universidad San Buenaventura, ademas soy un gran aficionado al baloncesto y disfruto mucho jugando y viendo partidos. Además, me apasiona la música rap y suelo escucharla en mis momentos de tiempo libre.
+
+                En esos tiempos, me gusta hacer diversas actividades, desde ver películas y series hasta salir a caminar o quedar con amigos. Soy una persona bastante sociable y disfruto mucho de la compañía de los demás.
+                
+                En cuanto a mis objetivos, siempre trato de mejorar en lo que hago y superar mis metas personales. Me gusta trabajar duro para lograr mis objetivos y me considero una persona perseverante y determinada.
+                
+                En resumen, soy un amante del deporte, la música y los momentos de ocio, ademas de ser un gran estudiante. Siempre estoy dispuesto a aprender y mejorar, y disfruto de la vida al máximo.</p>
+    
+            <a href="#">Descargar HOJA DE VIDA</a>
+        </div>
+    </section>
+
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Asistente en diseño web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    
+                    <li>Web</li>
+                    
+                </ul>
+                <p>Como asistente de diseño web, mi función es ayudar en el proceso de creación y desarrollo de sitios web. Para ello, puedo realizar diversas tareas, como:
+
+1.Generación de ideas de diseño.
+2.Selección de colores y tipografías.
+3.Diseño de wireframes y prototipos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Programación orientada a objetos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    
+                    <li>Web</li>
+                    
+                </ul>
+                <p>Como programador orientado a objetos, mi trabajo consiste en diseñar, desarrollar y mantener programas de software utilizando los principios y técnicas de la programación orientada a objetos (POO). Esto implica trabajar con lenguajes de programación que soporten la POO, como Java, C++, Python, entre otros.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Profesional en matematicas</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    
+                    <li>SEO</li>
+                </ul>
+                <p>Como profesional en matemáticas, mi trabajo consiste en investigar, desarrollar y aplicar conceptos y teorías matemáticas para resolver problemas en una amplia variedad de áreas, como la ciencia, la tecnología, la economía y la ingeniería</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Master en Photoshop</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    
+                    <li>Graphic</li>
+                    
+                </ul>
+                <p>Como profesional en Photoshop, mi trabajo consiste en utilizar esta herramienta de software para editar y manipular imágenes digitales con el objetivo de crear diseños gráficos y visuales que sean atractivos, efectivos y coherentes con el mensaje y la marca de un proyecto multimedia.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseñador Gráfico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    
+                    <li>Graphic</li>
+                    
+                </ul>
+                <p>Como diseñador gráfico, mi trabajo consiste en crear diseños visuales atractivos y efectivos para una amplia variedad de proyectos, desde logotipos y carteles hasta publicidad y diseños de sitios web.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Desarrollador de videojuegos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                  
+                    <li>SEO</li>
+
+                </ul>
+                <p>Como desarrollador de videojuegos, mi trabajo consiste en diseñar, programar y producir videojuegos para una variedad de plataformas, como consolas, computadoras y dispositivos móviles.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Programacion orientada a objetos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Trabajo hecho a mano con carboncillo</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Bosquejo grafitti arte digital</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Trabajo hecho a mano con carboncillo</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Recreacion de Riley Freeman de la serie de Tv "The Boondocks"</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Modelo con detalle realista de un cocodrilo</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Recreacion del personake de Frisk del videojuego "Undertale"</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Fantasma hecho a mano con carboncillo</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Boceto de idea de un punk</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Autoretrato animado hecho en Photoshop</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>ING. Multimedia - ARAT VELASQUEZ - 2023</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
